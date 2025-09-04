@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T11:45:48 IST" name="Suite" finished-at="2025-09-04T11:45:58 IST" duration-ms="10388">
+    <groups>
+      <group name="sanity">
+        <method signature="substore_testcase.verifySubstoreCounterSubModule()[pri:1, instance:testcases.substore_testcase@2187fff7]" name="verifySubstoreCounterSubModule" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreSubModules()[pri:2, instance:testcases.substore_testcase@2187fff7]" name="verifySubstoreSubModules" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreModule()[pri:3, instance:testcases.substore_testcase@2187fff7]" name="verifySubstoreModule" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifySubstoreSubModule()[pri:4, instance:testcases.substore_testcase@2187fff7]" name="verifySubstoreSubModule" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyAllSubstoreModulesAreDisplayedInSublist()[pri:5, instance:testcases.substore_testcase@2187fff7]" name="verifyAllSubstoreModulesAreDisplayedInSublist" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyNavigationBetweenSubmodules()[pri:6, instance:testcases.substore_testcase@2187fff7]" name="verifyNavigationBetweenSubmodules" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.takingScreenshotOfCurrentPage()[pri:7, instance:testcases.substore_testcase@2187fff7]" name="takingScreenshotOfCurrentPage" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyInventoryRequisitionSection()[pri:8, instance:testcases.substore_testcase@2187fff7]" name="verifyInventoryRequisitionSection" class="testcases.substore_testcase"/>
+        <method signature="substore_testcase.verifyCreateRequisitionButton()[pri:9, instance:testcases.substore_testcase@2187fff7]" name="verifyCreateRequisitionButton" class="testcases.substore_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-09-04T11:45:48 IST" name="Test" finished-at="2025-09-04T11:45:58 IST" duration-ms="10388">
+      <class name="testcases.substore_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:48 IST" name="initBrowser" finished-at="2025-09-04T11:45:52 IST" duration-ms="4087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifySubstoreCounterSubModule()[pri:1, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:52 IST" name="verifySubstoreCounterSubModule" description="Precondition: User should be logged in and on the healthapp section
+1. Login in the healthapp application
+2. Scroll down menu till Substore
+3. Click on the Substore4. SubStore module should be present" finished-at="2025-09-04T11:45:55 IST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubstoreCounterSubModule -->
+        <test-method signature="verifySubstoreSubModules()[pri:2, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:55 IST" name="verifySubstoreSubModules" description="1. Login in the healthapp application
+2. Click on the substore 
+3. &quot;Select your Substore&quot; pop up 4. Expected value that should be present in &quot;Select your Substore&quot; modal
+Expected sub-modals button:  Accounts,male ward SubStore,SubStore1,SubStore1" finished-at="2025-09-04T11:45:55 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubstoreSubModules -->
+        <test-method signature="verifySubstoreModule()[pri:3, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:55 IST" name="verifySubstoreModule" description="Precondition: User should be logged in and on the Verification section\n&quot;
+	+ &quot;1. Click on the Inventory Module
+	+ &quot;2. Hover over on module signout button and get text3. Verify text To change, you can always click here." finished-at="2025-09-04T11:45:56 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubstoreModule -->
+        <test-method signature="verifySubstoreSubModule()[pri:4, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:56 IST" name="verifySubstoreSubModule" description="Pre condition: User should be logged in and it is on SubStore module
+1. Login in the healthapp application
+2. Click on the Substore
+3. &quot;Select your Substore&quot; pop up 
+4. Click on &quot;Account&quot; sub-modal
+5. Click on the &quot;Inventory&quot; sub-module
+6. Click on&quot; Pharmacy&quot; sub-module
+7. All sub-modules should be displayed correctly.
+8. Expected Sub modules are : Pharmacy, Inventory" finished-at="2025-09-04T11:45:56 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubstoreSubModule -->
+        <test-method signature="verifyAllSubstoreModulesAreDisplayedInSublist()[pri:5, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:56 IST" name="verifyAllSubstoreModulesAreDisplayedInSublist" description="Pre condition: User should be logged in and it is on SubStore module
+1. Click on the SubStore Module drop-down arrow   
+2. Click on Inventory module. Expected Sub modules are : Stock, Inventory Requisition, Consumption, Reports, Patient Consumption,Return" finished-at="2025-09-04T11:45:56 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllSubstoreModulesAreDisplayedInSublist -->
+        <test-method signature="verifyNavigationBetweenSubmodules()[pri:6, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:57 IST" name="verifyNavigationBetweenSubmodules" description="Pre condition: User should be logged in 
+1. Click on the Substore Module drop-down arrow2. Verify navigation between sub-modules" finished-at="2025-09-04T11:45:57 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBetweenSubmodules -->
+        <test-method signature="takingScreenshotOfCurrentPage()[pri:7, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:57 IST" name="takingScreenshotOfCurrentPage" description="Under Substore module &gt; INventory Section&quot;
+			+ &quot;Take the screenshot of the current page" finished-at="2025-09-04T11:45:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takingScreenshotOfCurrentPage -->
+        <test-method signature="verifyInventoryRequisitionSection()[pri:8, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:58 IST" name="verifyInventoryRequisitionSection" description="Pre condition: User should be logged in and it is on SubStore module
+1. Click on the SubStore module drop-down arrow 
+2. Click on Inventory sub-module
+3. Click on Inventory Requisition section" finished-at="2025-09-04T11:45:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryRequisitionSection -->
+        <test-method signature="verifyCreateRequisitionButton()[pri:9, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:58 IST" name="verifyCreateRequisitionButton" description="Pre condition: User should be logged in and it is on Inventory sub-module
+1. Click on &quot;Inventory Requisition&quot; section
+2. Click on &quot;Create Requisition&quot; button
+3. Click on &quot;Target Inventory &quot; field and Select &quot;GENERAL-INVENTORY&quot; option
+4. Click on &quot;Item Category&quot; drop down and select &quot; Consumables&quot;  option
+5. Enter &quot;tissue&quot; in ItemName field
+6. Enter the &quot;Required Quantity&quot; field 
+7. Click on &quot;Request&quot; button
+8. Click on &quot;Close&quot; icon
+9. Verify popup message Requisition is Generated and Saved" finished-at="2025-09-04T11:45:58 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateRequisitionButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.substore_testcase@2187fff7]" started-at="2025-09-04T11:45:58 IST" name="tearDown" finished-at="2025-09-04T11:45:58 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.substore_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
